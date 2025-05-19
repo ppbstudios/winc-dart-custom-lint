@@ -1,5 +1,5 @@
-import 'package:dart_custom_lint_example/src/dispose_presenter.dart';
 import 'package:test/test.dart';
+import 'package:winc_dart_custom_lint/src/dispose_presenter.dart';
 
 import 'test_utils.dart';
 

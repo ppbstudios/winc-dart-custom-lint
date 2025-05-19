@@ -15,7 +15,7 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^5.0.0
   custom_lint: ^0.7.5
-  dart_custom_lint_example:
+  winc_dart_custom_lint:
     path: ../
 flutter:
   uses-material-design: true

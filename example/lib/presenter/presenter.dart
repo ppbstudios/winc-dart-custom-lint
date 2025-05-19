@@ -1,7 +1,7 @@
 import 'dart:async';
 
 // ignore: depend_on_referenced_packages
-import 'package:dart_custom_lint_example/dart_custom_lint_example.dart';
+import 'package:winc_dart_custom_lint/winc_dart_custom_lint.dart';
 
 abstract class Presenter {
   final StreamController<String> _errorStreamController =

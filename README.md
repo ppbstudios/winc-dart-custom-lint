@@ -11,6 +11,10 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/to/develop-packages). 
 -->
 
+# Forked Repository
+이 Repository는 `Presenter` 클래스를 사용할 때 필요한 규칙들을 검사하는 linter를 제공하는 Repository를 fork한 것입니다.
+기존 규칙들을 그대로 유지하면서, 추후 winc에 필요한 custom lint 규칙들을 추가할 수 있도록 했습니다.
+
 # Flutter Presenter Dispose Lint Rules
 
 A custom lint rule package for Flutter that enforces proper disposal of Presenter instances in StatefulWidget's State classes. This package helps prevent memory leaks by ensuring Presenters are correctly disposed when the State is disposed.
@@ -45,9 +49,9 @@ The package also provides automatic fixes:
 ```yaml
 dev_dependencies:
   custom_lint: ^0.7.0
-  dart_custom_lint_example:
+  winc_dart_custom_lint:
     git:
-      url: https://github.com/your_username/dart_custom_lint_example
+      url: https://github.com/your_username/winc_dart_custom_lint
 ```
 
 2. Create or update your `analysis_options.yaml`:
